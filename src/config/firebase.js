@@ -2,12 +2,12 @@ import firebase from "firebase";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAx62yQ3uq5Q5SHa443lFvJ5Z0ouR4xBIg",
-  authDomain: "cafe-app-19f62.firebaseapp.com",
-  projectId: "cafe-app-19f62",
-  storageBucket: "cafe-app-19f62.appspot.com",
-  messagingSenderId: "719694184967",
-  appId: "1:719694184967:web:926e34c1dc2785c6dd60a2",
+  apiKey: "AIzaSyDqY9xW1Gfx1lFhgyt2jqH3saldfEiCNDA",
+  authDomain: "cafe-app-7c819.firebaseapp.com",
+  projectId: "cafe-app-7c819",
+  storageBucket: "cafe-app-7c819.appspot.com",
+  messagingSenderId: "593946969386",
+  appId: "1:593946969386:web:d7feb26f611312280cca53"
 };
 /* const firebaseConfig = {
     apiKey: process.env.API_KEY,

@@ -1,6 +1,42 @@
 .header {
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #603813 0%, #997865 100%);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+th {
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #96a8c8;
+}
+td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #152a4f;
+}
+.add_button {
+  margin: 4px;
+  border-radius: 10px;
+  height: 53px;
+  padding: 0px 10px 0px 11px;
+}

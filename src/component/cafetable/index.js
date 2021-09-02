@@ -22,11 +22,16 @@ export default function CafeTable(props) {
   }, []);
   return (
     <div>
-      <div  className="header">
-        Cafe Details
+      <div className="header">
+        <div/>
+        <div>
+          <h1>Cafe Details</h1>
+        </div>
+        <div>
+          <button className="add_button" onClick={()=>{props.history.push("/")}}>Add</button>
+        </div>
       </div>
 
-      <hr></hr>
       <table className="table" style={{ fontSize: "20px" }}>
         <thead>
           <tr>
