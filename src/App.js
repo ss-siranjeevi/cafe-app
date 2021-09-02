@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route, HashRouter } from "react-router-dom";
-import CafeForm from "./component/CafeForm";
-import CafeTable from "./component/CafeTable";
+import CafeForm from "./component/cafeform";
+import CafeTable from "./component/cafetable";
+
 
 function App() {
-  console.log(process.env.API_KEY)
   return (
     <div className="App">
       <HashRouter>

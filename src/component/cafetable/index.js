@@ -1,5 +1,5 @@
 import React from "react";
-import firebase from "../config/firebase";
+import firebase from "../../config/firebase";
 import "./styles.css";
 export default function CafeTable(props) {
   const [cafeDetails, setCafeDetails] = React.useState([]);
@@ -20,15 +20,17 @@ export default function CafeTable(props) {
       setCafeDetails(info);
     });
   }, []);
-  console.log(cafeDetails);
   return (
     <div>
-      <div className="header">Cafe Details</div>
+      <div  className="header">
+        Cafe Details
+      </div>
+
       <hr></hr>
-      <table className="table" style={{fontSize:"20px"}}>
+      <table className="table" style={{ fontSize: "20px" }}>
         <thead>
           <tr>
-              <th scope="col">ID</th>
+            <th scope="col">ID</th>
             <th scope="col">Name</th>
             <th scope="col">City</th>
             <th scope="col">PinCode</th>
@@ -38,8 +40,8 @@ export default function CafeTable(props) {
         <tbody>
           {cafeDetails.map((data) => {
             return (
-              <tr>
-                  <td>{data.id}</td>
+              <tr key={data.id}>
+                <td>{data.id}</td>
                 <td>{data.cafeName}</td>
                 <td>{data.city}</td>
                 <td>{data.pinCode}</td>
