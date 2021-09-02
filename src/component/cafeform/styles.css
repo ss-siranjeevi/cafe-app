@@ -12,6 +12,7 @@
 }
 .generic-row {
   font-size: 20px;
+  padding-top:20px;
 }
 
 .label {
@@ -29,13 +30,9 @@
   border-radius: 12px;
   border: 1px solid #ffffff;
   outline: none;
+  margin-left: 5px;
 }
-.button {
-  background-color: #0473eb;
-  color: #f8f9fa;
-  border: 1px solid #0473eb;
-  border-radius: 3px;
-}
+
 .button:hover {
   background: #619ad8;
   color: #ffffff;
@@ -44,6 +41,8 @@
 }
 .error-message {
   color: #f80b0b;
+  margin-top: 2px;
+  margin-left: 10px;
 }
 .wrapper {
   border: 1px solid #ffffff;
@@ -62,6 +61,13 @@
 }
 .submit {
   background: linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+  border-radius: 16px;
+  width: -webkit-fill-available;
+  padding: 10px;
+  font-weight: bold;
+}
+.submit:hover{
+  background: linear-gradient(90deg, #e79494 0%, #e9c4ad 100%);
   border-radius: 16px;
   width: -webkit-fill-available;
   padding: 10px;
